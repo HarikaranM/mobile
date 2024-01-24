@@ -15,14 +15,17 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
-   
+    margin-inline-start: 15%;
+    margin-top: 4%;
 }
 header div a {
+    font-size: 35px;
     color: #EDEDF0;
+    font-weight: 800;
 }
+
 header .navlist ul{
     display: flex;
     justify-content: space-between;
@@ -44,13 +47,39 @@ header .fa-times{
 
 
 .dis .dis1{
-    display: flex;
-    justify-content: space-around;
+    display: -webkit-box;
+    margin-inline-start: 15%;
+    margin-block-start: 5%;
+    margin-inline-end: 5%;
+}
+.dis .dis1 .dis-text h1{
+    font-size: 60px;
+    line-height: 50px;
+   
+    margin-bottom: 15px;
 }
 
 .dis .dis1 .dis-text .btn{
     padding-top: 20px;
 }
+.dis .dis1 .dis-text .btn .buy{
+    
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    background-color: #827BD0;
+    border-bottom-right-radius: #827BD0 ;
+    color: #EDEDF0;
+    border-radius: 22px;
+   }
+   .dis .dis1 .dis-text .btn .sell{
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    background: #040047;
+    color: #EDEDF0;
+    border-radius: 22px;
+   }
 .ftd{
     display: flex;
     flex-direction: column;
@@ -60,6 +89,8 @@ header .fa-times{
 }
 .ftd .on{
     color: #EDEDF0;
+    font-weight: 800;
+    font-size: 25px;
 }
 .ftd .ftd-list{
     text-align: center;
@@ -69,24 +100,53 @@ header .fa-times{
 }
 .ftd .ftd-list .hh{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 40px;
 }
 .ftd .ftd-list{
     background-color: #040047;
-
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .mm{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
+.mm .build1 .aa9 {
+    font-size: 25px;
+    margin-bottom: 5px;
+
+   }
+   .mm .build1 .ant{
+    font-size: 40px;
+    line-height: 35px;
+    margin-block: 20px;
+   }
+   .mm .build1 p{
+    font-size: 25px;
+    margin: 30px 0;
+    line-height: 28px;
+   }
+.mm .build1 .btn1 .view{
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 20%;
+    background-color: #827BD0;
+    margin-bottom: 20px;
+    color: #EDEDF0;
+    border-radius: 45px;
+   }
 .hhh{
     text-align: center;
+}
+.hhh .ttt{
+    padding: 20px;
 }
 
 .hhh .ttt .s{
     color: #EDEDF0;
-    font-size: 15px;
+    font-size: 22px;
     
 }
 .hhh .ttt .ss{
@@ -99,12 +159,12 @@ header .fa-times{
     font-weight: 800;
     font-size: 32px;
 }
-.bbb{
+/* .bbb{
     margin: 10%;
-}
+} */
 .bbb .aa{
     display: flex;
-   
+    margin: 1%;
    
 }
 .Item {
@@ -135,14 +195,24 @@ header .fa-times{
 .are{
     text-align: center;
     color: #EDEDF0;
-    margin: 10%;
+    margin: 5%;
     padding: 10%;
     border-radius: 15px;
     border: 1px solid #fff;
     background: linear-gradient(0.25turn, #4F45B8, #737DC5, #93B0D1);
 }
+.are .btn1 .view{
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px 40px;
+    background-color: #000;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 1px solid #000;
+    color: #EDEDF0;
+    border-radius: 22px;
+   }
 .cccc{
-    padding: 25px 15% 30px;
+   margin: 5%;
 }
  .jjj{
     display: flex;
@@ -197,12 +267,14 @@ header .fa-times{
 @media (min-width:280px) and (max-width:900px){
 
     header{
-        padding-block-start: 20px;
+        
+        margin-inline-start: 3%;
+        margin-right: 3%;
     }
     header .navlist{
         position: fixed;
-        top: -50%;
-        width: 50%;
+        top: -80%;
+        width: 90%;
         background: #040047;
         text-align: center;
     }
@@ -211,10 +283,11 @@ header .fa-times{
     }
     header .fa-bars{
         display: block;
-       
+        font-size: 35px;
     }
     header .navlist ul li{
         transform: translateX(0%);
+        font-size: 25px;
    }
    
    header .nav-toggle{
@@ -222,11 +295,12 @@ header .fa-times{
     opacity: 1;
    }
    .dis{
-    margin-block-start: 20px;
+    margin-block-start: 40px;
    }
    .dis .dis1{
-    flex-direction: column;
-    text-align: center;
+    display: block;
+    margin-inline-start: 3%;
+    margin-inline-end: 2%;
    }
    .dis .mnt img{
     width:  calc(100% - 30px);
@@ -235,9 +309,9 @@ header .fa-times{
     font-size: 40px;
    }
    .dis .dis-text p{
-    font-size: 12px;
+    font-size: 25px;
    }
-   .dis .dis1 .dis-text .btn .buy{
+   /* .dis .dis1 .dis-text .btn .buy{
     
     width: 25%;
     text-align: center;
@@ -254,19 +328,31 @@ header .fa-times{
     background: #040047;
     color: #EDEDF0;
     border-radius: 22px;
+   } */
+   .ftd{
+    margin-inline-start: 4%;
+    margin-inline-end: 4%;
+   }
+   .ftd .ftd-list{
+    flex-direction: column;
+    font-size: 25px;
+    list-style: 45px;
    }
    .mm{
     display: block;
    }
    .mm  img{
-    width: 50%;
-    margin-inline-start: 25%;
+    /* width: 50%;
+    margin-inline-start: 25%; */
+    display: none;
+
    }
    .mm .build1{
-    margin-inline-start: 25%;
-    margin-inline-end: 15%;
+    margin-inline-start: 4%;
+    margin-inline-end: 4%;
+    margin-block: 10%;
    }
-   .mm .build1 .aa9 {
+   /* .mm .build1 .aa9 {
     font-size: 17px;
    }
    .mm .build1 .ant{
@@ -277,8 +363,8 @@ header .fa-times{
    .mm .build1 p{
     font-size: 10px;
     margin: 2% 0;
-   }
-   .mm .build1 .btn1 .view{
+   } */
+   /* .mm .build1 .btn1 .view{
    
     text-align: center;
     padding: 12px 40px;
@@ -286,14 +372,14 @@ header .fa-times{
     margin-bottom: 20px;
     color: #EDEDF0;
     border-radius: 22px;
-   }
+   } */
    .bbb .aa{
    display: block;
    
 }
    .Item {
     border: 1px solid #EDEDF0;
-    margin: 15%;
+    margin-block: 25%;
     border-radius: 20px;
     background-color: #130F42;
     border-color: #130F42;
