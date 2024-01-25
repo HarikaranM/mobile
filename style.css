@@ -463,9 +463,10 @@ header .fa-times{
     cursor: pointer;
 }
 .item3:hover .i44{
-    margin-bottom: -16%;
+    margin-bottom: -22%;
     opacity: 1;
     visibility: visible;
+    transition: .2s;
 }
 .i44 {
     background-color: #4F45B8;
