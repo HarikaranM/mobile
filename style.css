@@ -319,6 +319,10 @@ header .fa-times{
         text-align: center;
     }
     header .navlist ul{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    header .navlist ul{
         flex-direction: column;
     }
     header .fa-bars{
@@ -459,6 +463,7 @@ header .fa-times{
     cursor: pointer;
 }
 .item3:hover .i44{
+    margin-bottom: -16%;
     opacity: 1;
     visibility: visible;
 }
@@ -466,7 +471,7 @@ header .fa-times{
     background-color: #4F45B8;
     border-radius: 4px ;
     width: 100%;
-    
+    bottom: 0;
     position: absolute;
     opacity: 0;
     visibility: hidden;
