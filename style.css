@@ -17,32 +17,31 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline-start: 3%;
-    margin-right: 3%;
+    margin-inline-start: 12%;
+    margin-right: 12%;
     margin-top: 4%;
 }
 header div a {
-    font-size: 35px;
+    font-size: 25px;
     color: #EDEDF0;
     font-weight: 800;
 }
 
 header .navlist ul{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
     font-size: 20px;
-    margin-left: 15%;
-    margin-right: -15%;
+    margin-left: 25%;
+   
 }
 
 header .navlist ul li{
-    padding: 0 52px;
+    padding: 0 35px;
 }
 
 header .fa-bars{
     display: none;
-    cursor: pointer;
+    
     
     transition: 2s;
 }
@@ -54,18 +53,18 @@ header .fa-times{
 .dis .dis1{
     display: flex;
     justify-content: space-between;
-    margin-inline-start: 3%;
-    margin-block-start: 5%;
-    margin-inline-end: 5%;
+    margin-inline-start: 12%;
+    margin-block-start: 7%;
+    margin-inline-end: 12%;
 }
 .dis .dis1 .dis-text h1{
     font-size: 60px;
-    line-height: 50px;
+    line-height: 60px;
     margin-top: 45px;
     margin-bottom: 15px;
 }
 .dis .dis-text p{
-    font-size: 25px;
+    font-size: 20px;
    }
 
 .dis .dis1 .dis-text .btn{
@@ -94,8 +93,8 @@ header .fa-times{
 .ftd{
     display: flex;
     flex-direction: column;
-    margin-inline-start: 4%;
-    margin-inline-end: 4%;
+    margin-inline-start: 12%;
+    margin-inline-end: 12%;
     margin-block: 5%;
 }
 .ftd .on{
@@ -124,7 +123,7 @@ header .fa-times{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 4%;
+    margin-inline: 12%;
 }
 .mm .build1 .aa9 {
     font-size: 25px;
@@ -178,7 +177,7 @@ header .fa-times{
 } */
 .bbb .aa{
     display: flex;
-    margin: 1%;
+    margin-inline: 10%;
    
 }
 .Item {
@@ -209,7 +208,8 @@ header .fa-times{
 .are{
     text-align: center;
     color: #EDEDF0;
-    margin: 5%;
+    margin-inline: 12%;
+    margin-block-start: 3%;
     padding: 10%;
     border-radius: 15px;
     border: 1px solid #fff;
@@ -238,12 +238,12 @@ header .fa-times{
     border-radius: 22px;
    }
 .cccc{
-   margin: 5%;
+  margin-inline: 12%;
+  margin-block: 4%;
 }
  .jjj{
     display: flex;
-    justify-content: space-between;
-    align-items: self-start;
+    
 }
 .item2 h1{
     font-size: 20px;
@@ -288,17 +288,10 @@ header .fa-times{
     flex-direction: row-reverse;
     justify-content: space-evenly;
 }
-.cccc .item23{
-    padding-inline-end: 6%;
-}
-.cccc .jjj .item2{
-    padding-inline-end: 40px;
-    padding-inline-start: 15px;
+.cccc .jjj .item3{
+    padding-inline-end: 30px;
 }
 
-.cccc .jjj .item3{
-    padding-inline-end: 40px;
-}
 
 
 
@@ -386,6 +379,7 @@ header .fa-times{
    }
    .mm{
     display: block;
+    margin-inline: 1%;
    }
    .mm  img{
     /* width: 50%;
@@ -421,7 +415,11 @@ header .fa-times{
    } */
    .bbb .aa{
    display: block;
+   margin-inline: 3%;
    
+}
+.are{
+    margin-inline: 6%;
 }
    .Item {
     border: 1px solid #EDEDF0;
@@ -447,8 +445,8 @@ header .fa-times{
     color: #EDEDF0;
     border-radius: 22px;
    }
-   .jjj{
-    
+.jjj{
+    align-items: flex-start;
     flex-direction: column;
 }
 .item3  {
@@ -506,6 +504,8 @@ header .fa-times{
 }
 .cccc{
    display: block;
+   margin-inline: 7%;
+    margin-block: 10%;
 }
 .cccc .jjj .item3{
     padding-inline-end: 0px;
@@ -513,10 +513,37 @@ header .fa-times{
 
    
 }
+@media (min-width:1349px){
+    header .navlist ul{
+        margin-left: 45%;
+    }
+    .cccc .jjj .item2{
+        padding-inline-end: 62px;
+        
+    }
+    
+    .cccc .jjj .item3{
+        padding-inline-end: 90px;
+    }
+    
+}
 
-
-
-
+@media (min-width:1440px){
+    header .navlist ul{
+        margin-left: 50%;
+    }
+    .cccc .jjj .item2{
+        padding-inline-end: 62px;
+        
+    }
+    
+    .cccc .jjj .item3{
+        padding-inline-end: 90px;
+    }
+    
+}
+/* @media (min-width:1024px) and (max-width:1344px){
+} */
 
 
 
