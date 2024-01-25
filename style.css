@@ -258,7 +258,9 @@ header .fa-times{
     text-align: left;
     line-height: 25px;
 }
-
+.item3 .i33 p{
+    display:none;
+}
 .email{
     padding: 13px 250px 15px 24px;
     font-size: 13px;
@@ -284,7 +286,7 @@ header .fa-times{
 .cccc{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .cccc .item23{
     padding-inline-end: 6%;
@@ -461,6 +463,9 @@ header .fa-times{
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+.item3 .i33 p{
+    display: block;
 }
 .item3:hover .i44{
     margin-bottom: -22%;
