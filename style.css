@@ -129,6 +129,7 @@ header .fa-times{
     font-size: 25px;
     margin-bottom: 5px;
     margin-top: 15%;
+    color: #C4C4CD;
    }
    .mm .build1 .ant{
     font-size: 40px;
@@ -138,10 +139,11 @@ header .fa-times{
    .mm .build1 p{
     font-size: 25px;
     margin: 30px 0;
+    color: #555468;
     line-height: 28px;
    }
 .mm .build1 .btn1 .view{
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     padding: 25px 20%;
     background-color: #827BD0;
