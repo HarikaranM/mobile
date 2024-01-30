@@ -264,6 +264,12 @@ header .fa-times{
 .item3 .i33 p{
     display:none;
 }
+.item4 .i33 p{
+    display:none;
+}
+.item5 .i33 p{
+    display:none;
+}
 .email{
     padding: 13px 250px 15px 24px;
     font-size: 13px;
@@ -454,7 +460,33 @@ header .fa-times{
     width: 100%;
     position: relative;
 }
+.item4  {
+    width: 100%;
+    position: relative;
+}
+.item5  {
+    width: 100%;
+    position: relative;
+}
 .item3 .i33{
+    padding: 1.5rem;
+    background-color: #4F45B8;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.item4 .i33{
+    padding: 1.5rem;
+    background-color: #4F45B8;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.item5 .i33{
     padding: 1.5rem;
     background-color: #4F45B8;
     width: 100%;
@@ -466,22 +498,44 @@ header .fa-times{
 .item3 .i33 p{
     display: block;
 }
-.item3:hover .i44{
-    margin-bottom: 7%;
+.item4 .i33 p{
+    display: block;
+}
+.item5 .i33 p{
+    display: block;
+}
+.item3 .i44{
+    display: none;
+}
+.item4 .i44{
+    display: none;
+}
+.item5 .i44{
+    display: none;
+}
+/* .item3:hover .i44{
+    margin-bottom: -68%;
+    opacity: 1;
+    visibility: visible;
+    transition: .2s;
+} */
+.item4:hover .i44{
+    margin-bottom: -65%;
     opacity: 1;
     visibility: visible;
     transition: .2s;
 }
+
 .i44 {
     background-color: #4F45B8;
     border-radius: 4px ;
-    width: 86%;
-    bottom: 0;
-    position: fixed;
+    width: 100%;
+    padding: 8px;
+    /* position: absolute;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-    transition: opacity 0.2s linear, visibility 0.2s linear;
+    transition: opacity 0.2s linear, visibility 0.2s linear; */
 }  
 .i44 .i55{
     padding: 1rem;
