@@ -72,9 +72,9 @@ header .fa-times{
 }
 .dis .dis1 .dis-text .btn .buy{
     
-    width: 49%;
+   
     text-align: center;
-    padding: 14px 0;
+    padding: 14px 20px;
     font-size: 25px;
     background-color: #827BD0;
     border-bottom-right-radius: #827BD0;
@@ -82,12 +82,13 @@ header .fa-times{
     border-radius: 40px;
    }
    .dis .dis1 .dis-text .btn .sell{
-    width: 49%;
+   
     text-align: center;
-    padding: 15px 0;
+    padding: 14px 20px;
     background: #040047;
     color: #EDEDF0;
     font-size: 25px;
+    margin-inline-start: 32px;
     border-radius: 45px;
    }
 .ftd{
@@ -129,7 +130,7 @@ header .fa-times{
     font-size: 25px;
     margin-bottom: 5px;
     margin-top: 15%;
-    color: #C4C4CD;
+    color: #FF9A00;
    }
    .mm .build1 .ant{
     font-size: 40px;
@@ -139,14 +140,14 @@ header .fa-times{
    .mm .build1 p{
     font-size: 25px;
     margin: 30px 0;
-    color: #555468;
+    color: #FF9A00;
     line-height: 28px;
    }
 .mm .build1 .btn1 .view{
     font-size: 18px;
     text-align: center;
     padding: 25px 20%;
-    background-color: #827BD0;
+    background-color: #FF9A00;
     margin-bottom: 20px;
     color: #EDEDF0;
     border-radius: 45px;
@@ -310,7 +311,7 @@ header .fa-times{
     }
     header .navlist{
         position: fixed;
-        top: -80%;
+        margin-left: -110%;
         width: 90%;
         background: #040047;
         text-align: center;
@@ -324,15 +325,17 @@ header .fa-times{
     }
     header .fa-bars{
         display: block;
-        font-size: 35px;
+        font-size: 25px;
     }
     header .navlist ul li{
         transform: translateX(0%);
         font-size: 25px;
+        padding: 13px;
    }
    
    header .nav-toggle{
     top: 10%;
+    margin-left: 0;
     opacity: 1;
    }
    .dis{
@@ -342,6 +345,7 @@ header .fa-times{
     display: block;
     margin-inline-start: 3%;
     margin-inline-end: 2%;
+    text-align: center;
    }
    .dis .mnt img{
     width:  calc(100% - 30px);
@@ -351,25 +355,19 @@ header .fa-times{
    }
    .dis .dis1 .dis-text .btn{
     display: flex;
+    justify-content: center;
    }
-   /* .dis .dis1 .dis-text .btn .buy{
-    
-    width: 25%;
-    text-align: center;
-    padding: 12px 0;
-    background-color: #827BD0;
-    border-bottom-right-radius: #827BD0 ;
-    color: #EDEDF0;
-    border-radius: 22px;
-   }
+   .dis .dis1 .dis-text .btn .buy {  
+    padding: 0px 22px;
+    font-size: 18px;
+    margin: 10px;
+}
+  
    .dis .dis1 .dis-text .btn .sell{
-    width: 25%;
-    text-align: center;
-    padding: 12px 0;
-    background: #040047;
-    color: #EDEDF0;
-    border-radius: 22px;
-   } */
+    padding: 0px 22px;
+    font-size: 18px;
+    margin: 10px;
+   }
    .ftd{
     margin-inline-start: 4%;
     margin-inline-end: 4%;
@@ -393,6 +391,7 @@ header .fa-times{
     margin-inline-start: 4%;
     margin-inline-end: 4%;
     margin-block: 10%;
+    text-align: center;
    }
    /* .mm .build1 .aa9 {
     font-size: 17px;
@@ -468,7 +467,7 @@ header .fa-times{
     display: block;
 }
 .item3:hover .i44{
-    margin-bottom: -22%;
+    margin-bottom: 7%;
     opacity: 1;
     visibility: visible;
     transition: .2s;
@@ -476,9 +475,9 @@ header .fa-times{
 .i44 {
     background-color: #4F45B8;
     border-radius: 4px ;
-    width: 100%;
+    width: 86%;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
@@ -544,8 +543,14 @@ header .fa-times{
     }
     
 }
-/* @media (min-width:1024px) and (max-width:1344px){
-} */
+@media (min-width:700px) and (max-width:1024px){
+
+    .ftd .ftd-list{
+        flex-direction: row;
+       
+       
+       }
+}
 
 
 
