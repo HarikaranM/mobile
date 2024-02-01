@@ -79,6 +79,7 @@ header .fa-times{
     background-color: #827BD0;
     border-bottom-right-radius: #827BD0;
     color: #EDEDF0;
+    border: 1px solid #827BD0;
     border-radius: 40px;
    }
    .dis .dis1 .dis-text .btn .sell{
@@ -87,6 +88,7 @@ header .fa-times{
     padding: 14px 20px;
     background: #040047;
     color: #EDEDF0;
+    border: 1px solid #040047;
     font-size: 25px;
     margin-inline-start: 32px;
     border-radius: 45px;
@@ -149,6 +151,7 @@ header .fa-times{
     padding: 25px 20%;
     background-color: #FF9A00;
     margin-bottom: 20px;
+    border: 1px solid #EDEDF0;
     color: #EDEDF0;
     border-radius: 45px;
    }
@@ -238,6 +241,7 @@ header .fa-times{
     margin-bottom: 20px;
     border-bottom-right-radius: 1px solid #000;
     color: #EDEDF0;
+    border: 1px solid #EDEDF0;
     border-radius: 22px;
    }
 .cccc{
@@ -287,7 +291,7 @@ header .fa-times{
     color: #B8B8C3;
     position: absolute;
     border: none;
-    padding: 10px 42px 12px 42px;
+    padding: 12px 42px 12px 42px;
     margin-inline-start: -147px;
     background-color: #827BD0;
     margin-block-start: 5px;
