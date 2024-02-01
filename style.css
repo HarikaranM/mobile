@@ -251,7 +251,7 @@ header .fa-times{
 .item2 h1{
     font-size: 20px;
     text-align: center;
-    padding-inline-end: 100px;
+    padding-inline-end: 80px;
 }
 .item2 h3{
     font-size: 15px;
@@ -297,7 +297,7 @@ header .fa-times{
 .cccc{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .cccc .jjj .item3{
     padding-inline-end: 50px;
@@ -652,7 +652,7 @@ header .fa-times{
     }
 }
 
-@media (min-width:424px) and (max-width:768px){
+@media (min-width:424px) and (max-width:900px){
     .email {
         width: 100%;
         
